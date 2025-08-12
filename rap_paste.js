@@ -14,7 +14,8 @@
 
   const tryPasteByDom = function(clipText) {
     const e = document.activeElement;
-    if ((e.nodeName === 'INPUT' && e.type === 'text') || (e.nodeName === 'TEXTAREA')){
+    if ((e.nodeName === 'INPUT' && ['text', 'email', 'number', 'password', 'search', 'tel', 'url'].includes(e.type))
+        || (e.nodeName === 'TEXTAREA')){
       const prefix = e.value.slice(0, e.selectionStart);
       const suffix = e.value.slice(e.selectionEnd);
       e.value = prefix + clipText + suffix;
