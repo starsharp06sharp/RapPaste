@@ -17,7 +17,7 @@ Chrome:
 <img width="448" height="499" alt="image" src="https://github.com/user-attachments/assets/bd417205-46c6-4e79-94b5-bb86d5a9c230" />
 在**实用工具 → 从URL安装** 中 输入如下链接：
 ```
-https://git.woa.com/leolzheng/shell_tools/raw/master/tampermonkey/meeting_woa_filter.js
+https://raw.githubusercontent.com/starsharp06sharp/RapPaste/refs/heads/main/rap_paste.js
 ```
 然后点击 **安装**，在新的页面再点击 **安装**
 
